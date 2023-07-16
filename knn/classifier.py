@@ -37,6 +37,7 @@ class KNNClassifier():
 
         accuracy = sum(predictions)/len(predictions)
         print(f"Test accuracy: {accuracy}")
+        return accuracy
 
 
 if __name__=="__main__":
